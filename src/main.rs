@@ -1,4 +1,7 @@
-fn main() {}
+fn main() {
+    let contents = include_str!("../input.hand");
+    println!("{}", process_hands(contents.into()));
+}
 /**
  *
 👉 : moves the memory pointer to the next cell
